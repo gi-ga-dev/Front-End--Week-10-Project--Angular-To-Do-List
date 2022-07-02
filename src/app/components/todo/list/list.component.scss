@@ -1,0 +1,12 @@
+#list-cont {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+li,
+input,
+button {
+    margin-right: 20px;
+}

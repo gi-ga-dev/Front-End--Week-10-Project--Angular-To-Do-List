@@ -1,0 +1,21 @@
+#add-cont {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+button {
+    width: 20px;
+    height: 20px;
+}
+
+li,
+input,
+button {
+    margin-right: 20px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}

@@ -1,0 +1,24 @@
+<div>
+    <!-- se noShow e' true nascondi componente per 2 sec (setTimout) -->
+    <ul *ngIf="noShow; else elseBlock1">
+        <li>Recupero Task in corso...</li>
+    </ul>
+</div>
+
+<ng-template #elseBlock1>
+    <!-- Se gli elementi nell'array sono sup. a 0 mostra dati -->
+    <div *ngIf="toDo.length > 0; else elseBlock2">
+        <ul id="list-cont">
+            <!-- ciclo tutti gli oggetti e le loro prop. iniettati dal service e decido cosa stampare -->
+            <li *ngFor="let task of toDo">
+                {{task._title}}
+                <button type="button" (click)="removeTask(task)">Remove</button>
+                <input type="checkbox" (click)="markTask(task)">
+            </li>
+        </ul>
+    </div>
+</ng-template>
+
+<ng-template #elseBlock2>Oops non ci sono task...</ng-template>
+
+<hr>

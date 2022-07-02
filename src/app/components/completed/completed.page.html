@@ -1,0 +1,18 @@
+<div>
+    <!-- se noShow e' true nascondi componente per 2 sec (setTimout) -->
+    <ul *ngIf="noShow; else elseBlock">
+        <li>Rimozione Task in corso...</li>
+    </ul>
+</div>
+
+<ng-template #elseBlock>
+    <div>
+        <ul id="list-cont">
+            <!-- mi sta stampando i dati dell'array originale SBAGLIATO -->
+            <li *ngFor="let task of markedList">
+                {{task._title}}
+                <button type="button" (click)="removeMarked(task)">Remove</button>
+            </li>
+        </ul>
+    </div>
+</ng-template>
