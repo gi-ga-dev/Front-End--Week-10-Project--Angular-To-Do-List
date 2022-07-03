@@ -1,27 +1,26 @@
-# App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+<p><h2 align="center" dir="auto"><b>Epicode School - Week 10 Project</b></h2></p>
+<p align="center" dir="auto">Track: Create a To-Do List application with Angular.</p>
 
-## Development server
+<p align="center" dir="auto"><b>Technologies Used:</b></p>
+<p align="center" dir="auto"> 
+  <a href="https://github.com/gi-ga-dev" target="_blank" rel="nofollow"> 
+    <img src="https://user-images.githubusercontent.com/77717069/176915899-7871db31-9ffa-448c-b7ca-29a4aa87b607.png" alt="scss" width="100">
+  </a> 
+  <a href="https://github.com/gi-ga-dev" target="_blank" rel="nofollow"> 
+    <img src="https://user-images.githubusercontent.com/77717069/175243442-5c187e89-0afd-49ff-b56b-08c41e884a5f.png" alt="ts" width="100">
+  </a> 
+  <a href="https://github.com/gi-ga-dev" target="_blank" rel="nofollow"> 
+    <img src="https://user-images.githubusercontent.com/77717069/176915746-fe6aef56-4fc7-465f-b255-6a44ee086f70.png" alt="ng" width="100">
+  </a> 
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center" dir="auto"> <b>Project Introduction:</b> <br><br>
 
-## Code scaffolding
+Features:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Methods:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+</p>
