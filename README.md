@@ -17,8 +17,8 @@
 
 <p align="center" dir="auto"> <b>Project Introduction:</b> <br><br>
 
-I created an SPA with two pages using rooting. The completed tasks will move to the second page when input is checked.
-The To Do Service will manage all the logics and data to inject to components. I added a 2 seconds wait (setTimeout) on each method with a noShow variable that will trigger when methods are invoked and become false after 2 seconds showing the components.
+I created an SPA with two pages using rooting. When task input is checked it will move to the second page.
+The To Do Service will manage all the logics and data to inject to components via Dependency Injection. I added a 2 seconds wait (setTimeout) on each method with a noShow variable that will trigger when methods are invoked and become false after 2 seconds showing the components.
 
 Pages: 
 - `Not Completed Tasks` | `Completed Tasks` | `404 Page`
