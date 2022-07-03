@@ -9,6 +9,7 @@ import { NotfoundPage } from './components/notfound/notfound.page';
 import { AddComponent } from './components/todo/add/add.component';
 import { ListComponent } from './components/todo/list/list.component';
 import { FormsModule } from '@angular/forms';
+import { ListMComponent } from './components/completed/list-m/list-m.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     CompletedPage,
     NotfoundPage,
     AddComponent,
-    ListComponent
+    ListComponent,
+    ListMComponent
   ],
   imports: [
     BrowserModule,
